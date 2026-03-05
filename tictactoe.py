@@ -43,7 +43,7 @@ def check_win(player):
 
 #if game drow
 def check_draw():
-    return ' ' not in board
+    return ' ' not in board.       djsk
 
 #the game loop
 current_player = 0
@@ -72,6 +72,7 @@ while True:
 #winners record
 with open("game history.txt", 'a') as file:
     file.write("\n" + str(name) + " and " + str(name2) + " were playing and player carrying '" + str(player) + "' win")
+
 
 
 
