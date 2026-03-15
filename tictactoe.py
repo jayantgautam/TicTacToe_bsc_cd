@@ -48,7 +48,7 @@ def check_draw():
 #the game loop
 current_player = 0
 while True:
-    print_board()
+    print_board().     fh
     player = player_symbols[current_player]
     position = int(input(f"Player {player}, enter a position (1-9): ")) - 1
 
