@@ -13,7 +13,7 @@ input("press enter to start the game")
 board = [' ' for _ in range(9)]
 
 #player symbols
-player_symbols = ['X', 'O']
+player_symbols = ['X', 'O'].   ehsjs
 
 #for printing game board
 def print_board():
