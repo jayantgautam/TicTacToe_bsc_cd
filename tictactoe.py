@@ -25,7 +25,7 @@ def print_board():
 #if player win
 def check_win(player):
     #check rows
-    for i in range(0, 9, 3):
+    for i in range(0, 9, 3):      ekeiei
         if board[i] == player and board[i+1] == player and board[i+2] == player:
             return True
 
