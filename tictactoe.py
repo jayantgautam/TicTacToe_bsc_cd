@@ -1,5 +1,5 @@
 
-name = input("Your good name ")
+name = input("Your good name ").  ghggg
 print("hi", name)
 name2 = input("2nd player name: ")
 print("So,", str.upper(name), "you can start the game and you will be the 'X' and", str.upper(name2), "will get the 'O' or u can do viceversa")
