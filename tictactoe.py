@@ -10,7 +10,7 @@ file.close()
 input("press enter to start the game")
 
 #board range
-board = [' ' for _ in range(9)].  gugg
+board = [' ' for _ in range(9)]
 
 #player symbols
 player_symbols = ['X', 'O']
