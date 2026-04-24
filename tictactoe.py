@@ -30,7 +30,7 @@ def check_win(player):
             return True
 
     #check columns
-    for i in range(3):    ftujhh
+    for i in range(3):
         if board[i] == player and board[i+3] == player and board[i+6] == player:
             return True
 
