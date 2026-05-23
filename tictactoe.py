@@ -7,7 +7,7 @@ file = open("gamerule.txt", "r")
 content = file.read()
 print(content)
 file.close()
-input("press enter to start the game")heheheeh
+input("press enter to start the game")
 
 #board range
 board = [' ' for _ in range(9)]
